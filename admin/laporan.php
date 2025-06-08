@@ -66,7 +66,7 @@ if (mysqli_num_rows($hasil) === 0) {
 ?>
 <div class="bg-gradient-to-t from-gray-100 to-white border border-gray-300 shadow-sm rounded-xl w-full flex flex-col justify-between gap-5 p-5">
     <div class="flex flex-col gap-2 flex-1">
-        <img src="../Assets/uploads/<?=$hsl['foto']?>" class="w-full h-full rounded-full p-3" alt="foto calon">
+        <img src="../Assets/uploads/<?=$hsl['foto']?>" class="w-full h-fit rounded-full p-3" alt="foto calon">
     </div>
     <div class="flex flex-col gap-2 flex-1">
         <h5 class="text-gray-800 text-xl font-semibold">
