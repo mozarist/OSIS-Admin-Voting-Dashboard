@@ -75,7 +75,7 @@ if (mysqli_num_rows($hasil) === 0) {
 ?>
 <div class="bg-gradient-to-t from-gray-100 to-white border border-gray-300 shadow-sm rounded-xl w-full flex flex-col lg:flex-row justify-center gap-5 p-5">
     <div class="flex flex-col gap-2 flex-1">
-        <img src="../Assets/uploads/<?=$hsl['foto']?>" class="w-full h-full rounded-full" alt="foto calon">
+        <img src="../Assets/uploads/<?=$hsl['foto']?>" class="w-full h-fit rounded-full" alt="foto calon">
         <div class="bg-gradient-to-r from-blue-700 to-cyan-500 text-white text-sm text-center font-semibold p-2 rounded-xl">
             <?php
             $sql_suara = "SELECT count(id_voting) as jumlah_suara FROM `voting` where id_calon= " . $hsl['id_calon'];

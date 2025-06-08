@@ -29,7 +29,7 @@
     <body class="bg-gray-100 font-[Poppins] min-h-screen">
 
         <!-- sidebar -->
-        <aside class="fixed hidden h-full top-0 left-0 lg:flex flex-col justify-between w-70 bg-gray-100 p-5">
+        <aside class="fixed hidden h-screen top-0 left-0 lg:flex flex-col justify-between w-70 bg-gray-100 p-5">
             <nav class="space-y-7">
                 <h1 class="bg-gradient-to-r from-blue-700 to-cyan-500 bg-clip-text text-transparent text-xl font-bold font-[poppins] pb-3 border-b border-gray-300">
                     OSIS <span class="text-black">Voting Admin</span>

@@ -24,7 +24,7 @@ include "header.php";
     </div>
     <div class="rounded-xl p-5 text-white bg-gradient-to-r from-blue-600 to-cyan-500 shadow-sm space-y-2">
         <h5 class="text-lg font-semibold">Voting Terbanyak</h5>
-        <p class="text-5xl font-bold flex flex-wrap md:flex-no-wrap items-end gap-2">
+        <p class="text-5xl lg:text-3xl 2xl:text-5xl font-bold flex flex-wrap md:flex-no-wrap items-end gap-2">
             <?php
                   $sql ="
                         SELECT 
@@ -66,7 +66,7 @@ if (mysqli_num_rows($hasil) === 0) {
 ?>
 <div class="bg-gradient-to-t from-gray-100 to-white border border-gray-300 shadow-sm rounded-xl w-full flex flex-col justify-between gap-5 p-5">
     <div class="flex flex-col gap-2 flex-1">
-        <img src="../Assets/uploads/<?=$hsl['foto']?>" class="w-full h-full rounded-full p-7" alt="foto calon">
+        <img src="../Assets/uploads/<?=$hsl['foto']?>" class="w-full h-full rounded-full p-3" alt="foto calon">
     </div>
     <div class="flex flex-col gap-2 flex-1">
         <h5 class="text-gray-800 text-xl font-semibold">
