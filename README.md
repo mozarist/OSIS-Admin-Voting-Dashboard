@@ -46,8 +46,9 @@ To run this project:
 ---
 
 ## 📄 License
-
-This project is licensed as follows:
+This project was created for educational purposes.  
+Free to use and modify with credit to Ahmad Azzam Mozarist.  
+Not intended for commercial use.
 
 - ✅ **Free for personal and non-commercial use**, with credit to **Ahmad Azzam Mozarist**.
 - 💼 **Commercial use requires a paid license.**
