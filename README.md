@@ -9,9 +9,11 @@ A voting web app for school election using PHP & MySQL
 admin dashboard:
 - Admin dashboard login
 - Dashboard Overview
+- List of candidate
 - Add & delete candidate
+- List of administrator
 - Add & delete administrator account
-- 
+- Voting Report
 - Real-time vote count
 
 ## Tech Stack
