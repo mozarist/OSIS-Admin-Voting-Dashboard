@@ -60,4 +60,4 @@ To request a commercial license or collaborate, please contact:
 
 ## 🙌 Credits
 
-Created with ❤️ and lots of Tailwindcss classes by **Ahmad Azzam Mozarist**
+Made with ❤️ by **Ahmad Azzam Mozarist**
