@@ -4,9 +4,9 @@
 A voting web app for school election using PHP & MySQL
 
 ## Features
-- Voting system (non-admin authority)
+- Voting system
 
-(admin)
+  (admin)
 - Admin dashboard login
 - Dashboard Overview
 - Add & delete candidate
